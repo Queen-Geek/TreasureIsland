@@ -22,16 +22,16 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 
 print("Welcome to Treasure Island!\n")
 print("Your mission is to find the tresure.\n")
-direction = (input("left or right?\n")).lower()
+direction = (input("You're at a cross roads. \nDo you want to go 'left' or 'right'?\n")).lower()
 
 if direction == "left":
-    print("Good pick! You may continue.")
-    wait = input("swim or wait?\n").lower()
+
+    wait = input("You have arrived at a lake. There is an island in the middle. \nDo you want to 'swim' to the island or 'wait' for a boat?\n").lower()
     if wait == "wait":
         print("Good pick. You may continue.")
-        color = input("Choose a color: blue, yellow, or red?\n").lower()
+        color = input("You have arrived at the island unharmed. The is a house with 3 doors: \none 'red', one 'yellow', and one 'blue'. Which color do you choose?\n").lower()
         if color == "yellow":
-            print("You win!")
+            print("You have found the tresure! You win!")
         elif color == "blue":
             print("You were eaten by beats. Game over.")
         elif color == "red":
