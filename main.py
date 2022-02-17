@@ -20,7 +20,8 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_____ /
 *******************************************************************************''')
 
-print("Welcome to Treasure Island! Your mission is to find the tresure.\n")
+print("Welcome to Treasure Island!\n")
+print("Your mission is to find the tresure.\n")
 direction = (input("left or right?\n")).lower()
 
 if direction == "left":
